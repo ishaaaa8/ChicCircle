@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  width: 25%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home {
+  width: 50%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: calc(33.333% - 20px);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.model-display {
+  width: 50%;
+  padding: 20px;
+}
+
+.model-container {
+  position: relative;
+}
+
+.model-image {
+  width: 100%;
+}
+
+.clothing-image {
+  position: absolute;
+  width: 50%; /* Adjust as necessary */
+  pointer-events: none;
+}
+
+.horizontal-slider {
+  width: 100%;
+  margin-top: 20px;
+  height: 25px; /* Adjust height to fit thumb */
+}
+
+.thumb {
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: grab; /* Make it clear that it can be dragged */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  top: 0; /* Align with the track */
+}
+
+.track {
+  background: #ddd;
+  height: 5px;
+  top: 50%; /* Vertically center the track */
+  transform: translateY(-50%); /* Adjust for centering */
+}
+
+.label-container {
+  margin-bottom: 20px;
+}
