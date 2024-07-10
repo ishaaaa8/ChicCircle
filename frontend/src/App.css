@@ -1,11 +1,15 @@
+/* General styles */
 .app {
   display: flex;
-  height: 100vh;
+  height: 800px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .left, .right {
   width: 25%;
   padding: 20px;
+  height: 800px;
   background-color: #f0f0f0;
   box-sizing: border-box;
   display: flex;
@@ -17,6 +21,7 @@
   width: 50%;
   padding: 20px;
   overflow-y: auto;
+  height: 800px;
 }
 
 .card-container {
@@ -38,48 +43,165 @@
 
 .model-display {
   width: 50%;
-  padding: 20px;
+  height: 800px;
+  padding: 10px;
+  position: relative;
 }
 
 .model-container {
+  width: 80%;
+  height: 323px;
   position: relative;
 }
 
 .model-image {
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.try {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.upper-body,
+.lower-body {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clothing-divs {
+  width: 60%;
+  height: 80%;
+  bottom: 0;
+  /* opacity: 95%; */
+  /* background-color: white; */
 }
 
 .clothing-image {
   position: absolute;
-  width: 50%; /* Adjust as necessary */
+  width: 80%;
   pointer-events: none;
 }
 
-.horizontal-slider {
-  width: 100%;
-  margin-top: 20px;
-  height: 25px; /* Adjust height to fit thumb */
+/* XS, 164cm */
+.size-xs-164 .upper-body {
+  height: 130px;
+  top: 95%;
+  z-index: 1;
 }
 
-.thumb {
-  background-color: #007bff;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  cursor: grab; /* Make it clear that it can be dragged */
+.size-xs-164 .lower-body {
+  height: 193px;
+  top: 118%;
+  /* opacity: 5%; */
+  /* background-color: rgb(127, 121, 121); */
+}
+
+.size-xs-164 .upper-body .clothing-divs .clothing-image {
+  width: 56%;
+  bottom: 0;
+}
+
+.size-xs-164 .lower-body .clothing-divs .clothing-image {
+  top: -55%;
+  left: -2.5%;
+  width: 99%;
+}
+
+/* M, 168cm */
+.size-m-168 .upper-body {
+  height: 135px;
+  top: 92%;
+  z-index: 1;
+}
+
+.size-m-168 .lower-body {
+  height: 200px;
+  top: 117%;
+}
+
+.size-m-168 .upper-body .clothing-divs .clothing-image {
+  width: 55%;
+  height: 283px;
+  left: 23%;
+  bottom: 0;
+  /* background-color: aliceblue; */
+}
+
+
+.size-m-168 .lower-body .clothing-divs .clothing-image {
+  height: 469px;
+  top: -40%;
+  left: -1%;
+  width: 102%;
+  /* background-color: rgb(248, 244, 244,38%); */
+  /* opacity: 2%; */
+
+}
+
+/* .model-container.size-l-174 {
+  width: 165px; /* Fixed width */
+  /* height: 320px; Fixed height */
+  /* position: relative; */
+/* } */ */
+
+.model-container.size-l-174 .try {
   display: flex;
-  align-items: center; /* Center the content vertically */
-  justify-content: center; /* Center the content horizontally */
-  top: 0; /* Align with the track */
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
-.track {
-  background: #ddd;
-  height: 5px;
-  top: 50%; /* Vertically center the track */
-  transform: translateY(-50%); /* Adjust for centering */
+.model-container.size-l-174 .upper-body {
+  height: 100%;
+  position: relative;
 }
 
-.label-container {
-  margin-bottom: 20px;
+.model-container.size-l-174 .lower-body {
+  height: 0%;
+  position: relative;
+}
+
+.model-container.size-l-174 .clothing-divs {
+  position: absolute;
+  width: 166px;
+  height: 100%;
+}
+
+/* Adjust the clothing images for size L and height 174 */
+.model-container.size-l-174 .upper-body .clothing-image{
+  width: 530px; /* Adjust width as necessary */
+  height: 710px; /* Maintain aspect ratio */
+}
+
+
+.model-container.size-l-174 .upper-body .jumpsuit-image {
+  top: 26%; /* Adjust as necessary */
+  left: -77px; /* Adjust as necessary */
+  width: 785px; /* Adjust width as necessary */
+}
+.model-container.size-l-174 .lower-body .jumpsuit-image {
+  top: -5%; /* Adjust as necessary */
+  left: 5%; /* Adjust as necessary */
+  width: 90%; /* Adjust width as necessary */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
 }
