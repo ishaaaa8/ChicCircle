@@ -15,22 +15,31 @@ const App = () => {
     tops: [
       '/assests/Tops-blue.jpg',
       '/assests/Tops-Black.jpg',
-      '/assests/tops/Tops-Green.jpg'
+      '/assests/Tops-black-crochet.png',
+      '/assests/Tops-pink.png',
+      '/assests/Tops-colored.png',
+      '/assests/Tops-white.jpg',
+      '/assests/Tops-offwhite.jpg',
     ],
     jeans: [
       '/assests/Jeans-Blue.jpg',
       '/assests/Jeans-Black.jpg',
-      '/assests/Jeans-White.jpg'
+      '/assests/Tights-Tiedie.jpg',
+      '/assests/Tights-Black.jpg',
     ],
     dresses: [
       '/assests/dresses-white.jpg',
       '/assests/Dresses-floral.jpg',
-      '/assests/Dress-Green.jpg'
+      '/assests/dresses-orange.png',
+      
+      '/assests/dresses-brightpink.png',
+      '/assests/dresses-chiffon.png',
+      '/assests/dresses-shimmered.png',
     ],
     skirts: [
       '/assests/Skirts-creame.jpg',
-      '/assests/Skirt-Blue.jpg',
-      '/assests/Skirt-Green.jpg'
+      '/assests/Skirts-creame.jpg',
+      // '/assests/skrtt-offwhite.png'
     ],
     jumpsuits: [
       '/assests/Jumpsuit-White.jpg',
@@ -49,46 +58,14 @@ const App = () => {
     ]
   };
 
-  const positions = {
-    tops: {
-      'Tops-blue-1': { top: '22%', left: '23%' },
-      'Tops-Red-1': { top: '12%', left: '17%' },
-      'Tops-Green-1': { top: '14%', left: '19%' }
-    },
-    jeans: {
-      'Jeans-Blue-1': { top: '60%', left: '15%' },
-      'Jeans-Black-1': { top: '62%', left: '17%' },
-      'Jeans-White-1': { top: '64%', left: '19%' }
-    },
-    dresses: {
-      'Dress-Red-1': { top: '10%', left: '18%' },
-      'Dress-Blue-1': { top: '11%', left: '19%' },
-      'Dress-Green-1': { top: '12%', left: '20%' }
-    },
-    skirts: {
-      'Skirt-Red-1': { top: '50%', left: '20%' },
-      'Skirt-Blue-1': { top: '52%', left: '22%' },
-      'Skirt-Green-1': { top: '54%', left: '24%' }
-    },
-    jumpsuits: {
-      'Jumpsuit-Red-1': { top: '15%', left: '18%' },
-      'Jumpsuit-Blue-1': { top: '17%', left: '20%' },
-      'Jumpsuit-Green-1': { top: '19%', left: '22%' }
-    }
-  };
+ 
 
-  const getClothingPosition = (image) => {
-    const categoryPositions = positions[category];
-    const imageName = image.split('/').pop().split('.')[0] + '-1';
-    return categoryPositions[imageName] || { top: '0', left: '0' };
-  };
-
-  // const selectItem = (category, image) => {
-  //   setSelectedItems(prevItems => ({
-  //     ...prevItems,
-  //     [category]: image
-  //   }));
+  // const getClothingPosition = (image) => {
+  //   const categoryPositions = positions[category];
+  //   const imageName = image.split('/').pop().split('.')[0] + '-1';
+  //   return categoryPositions[imageName] || { top: '0', left: '0' };
   // };
+
 
   const selectItem = (category, image) => {
     setSelectedItems(prevItems => {

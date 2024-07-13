@@ -1,0 +1,124 @@
+.friends-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ootd-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 700px;
+    padding: 20px;
+    /* background: #EDEDF9;  */
+    /* SCM Purple 10 */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.ootd-card:hover {
+    transform: scale(1.05);
+}
+
+.ootd-heading {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+    color: #4F47C8; /* SCM Purple 100 */
+}
+
+.buy-look {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 5px;
+    color: #3F39A0; /* SCM Purple 80 */
+}
+
+.ootd-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Added border radius for better styling */
+}
+
+.ootd-description {
+    padding: 20px;
+    background: #fff; /* White background for contrast */
+}
+
+.ootd-hashtags {
+    margin-top: 10px;
+}
+
+.hashtag {
+    display: inline-block;
+    background: #CAC8EE; /* SCM Purple 30 */
+    color: #4F47C8; /* SCM Purple 100 for text */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.hashtag:hover {
+    background: #3F39A0; /* SCM Purple 80 on hover */
+    color: #EDEDF9; /* SCM Purple 10 for contrast */
+}
+
+.recommended-clothes {
+    padding: 50px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy-look-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: auto;
+    width: auto;
+}
+
+.recommended-clothes a {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.recommended-clothes-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.recommended-clothes-image:hover {
+    transform: scale(1.05);
+}
+/* Add this to FriendsPage.css */
+
+.recommend-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4F47C8; /* Adjust according to your color palette */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.recommend-button:hover {
+    background-color: #3F39A0; /* Adjust according to your color palette */
+}
+
+.recommended-clothes {
+    margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+    background-color: #EDEDF9; /* SCM Purple 10 */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Page Styling */
+.home {
+    padding: 20px;
+    background-color: #EDEDF9; /* SCM Purple 10 */
+}
+
+.community-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.community-card {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    background-color: #CAC8EE; /* SCM Purple 30 */
+    border: 2px solid #4F47C8; /* SCM Purple 100 */
+    border-radius: 10px;
+    /* min-height: 300px; */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    color: #333; /* Dark text for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.community-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4F47C8; /* SCM Purple 100 */
+}
+
+.community-card h3 {
+    margin: 10px 0;
+    color: #3F39A0; /* SCM Purple 80 */
+}
+
+.community-card button {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #4F47C8; /* SCM Purple 100 */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.community-card button:hover {
+    background-color: #3F39A0; /* SCM Purple 80 */
+}
+
+.community-card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional Styling for Visual Appeal */
+.community-card .description {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.community-card .hashtags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.community-card .hashtag {
+    background-color: #4F47C8; /* SCM Purple 100 */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.community-card .hashtag:hover {
+    background-color: #3F39A0; /* SCM Purple 80 */
+    color: #EDEDF9; /* SCM Purple 10 */
+}

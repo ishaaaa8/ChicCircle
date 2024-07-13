@@ -1,0 +1,49 @@
+.ootd {
+    padding: 20px;
+}
+
+.upload-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tags-section {
+    margin-bottom: 20px;
+}
+
+.predefined-tags button,
+.new-tag button,
+.submit-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-tag {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.selected-tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}

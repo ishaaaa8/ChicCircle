@@ -1,0 +1,31 @@
+.friend-detail {
+    padding: 20px;
+}
+
+.ootd-card {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ootd-picture img {
+    width: 50%;
+    height: auto;
+}
+
+.recommended-clothes {
+    padding: 10px;
+}
+
+.recommended-clothes h3 {
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.recommended-clothes img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}

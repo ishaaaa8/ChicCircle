@@ -1,0 +1,96 @@
+.bollywood {
+    padding: 20px;
+    text-align: center;
+    background-color: #EDEDF9; /* SCM Purple 10 */
+}
+
+.trends-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trend-card {
+    border: 1px solid #3F39A0; /* SCM Purple 100 */
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #CAC8EE; /* SCM Purple 30 */
+    width: 200px; /* Adjust width as needed */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+.submit-button{
+    background-color: #6a63ca;
+    margin: 5px;
+    /* height: 15px; */
+
+}
+.submit-button :hover{
+    background-color:#4F47C8;
+    border: #4F47C8;
+}
+.trend-card:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Lift effect */
+}
+
+.trend-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.trend-image:hover {
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+.hashtags {
+    padding: 10px;
+    font-size: x-small;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hashtag-button {
+    background: #4F47C8; /* SCM Purple 100 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: small;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hashtag-button:hover {
+    color: #EDEDF9; /* SCM Purple 10 */
+    background: #3F39A0;
+    scale: 1.15;
+    opacity: 85%; /* SCM Purple 80 */
+    border:#3F39A0; /* SCM Purple 100 */
+}
+.submit-button {
+    background-color: #6A63CA; /* Adjusted primary background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for a better look */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.submit-button:hover {
+    background-color: #4F47C8; /* Darker purple on hover */
+    transform: scale(1.05); /* Slightly scale on hover */
+    border: #3F39A0;
+    font: white;
+
+}

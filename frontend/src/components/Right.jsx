@@ -24,6 +24,7 @@ const Right = ({ setHeight, setSize, height, size, selectedItems = {}, removeIte
           placeholder='Enter your Height in cm' 
           value={inputHeight}
           onChange={(e) => setInputHeight(e.target.value)}
+          className='model-detail-btn'
         />
       </div>
       <div>
@@ -33,9 +34,10 @@ const Right = ({ setHeight, setSize, height, size, selectedItems = {}, removeIte
           placeholder='Enter your size' 
           value={inputSize}
           onChange={(e) => setInputSize(e.target.value)}
+          className='model-detail-btn'
         />
       </div>
-      <button onClick={handleTry}>Try</button>
+      <button onClick={handleTry} className='model-detail-btn'>Try</button>
       <div className="selected-items">
         <h3>Selected Items</h3>
         <ul>

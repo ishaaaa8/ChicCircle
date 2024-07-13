@@ -1,0 +1,154 @@
+/* Sidebar Container */
+.sidebar {
+    width: 250px;
+    background-color: #EDEDF9; /* SCM Purple 10 */
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Search Input */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4F47C8; /* SCM Purple 100 */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text */
+    transition: border 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #3F39A0; /* SCM Purple 80 */
+    outline: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button {
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    border: 1px solid #4F47C8; /* SCM Purple 100 */
+    border-left: 0;
+    background-color: #3F39A0; /* SCM Purple 80 */
+    border-radius: 0 4px 4px 0;
+    color: #fff; /* White text */
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #2F2B78; /* SCM Purple 60 */
+}
+
+/* Heading for Friends List */
+.heading-friends {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 8px;
+    color: #4F47C8; /* SCM Purple 100 */
+}
+
+/* Friends List */
+.friends-list {
+    width: 100%;
+    background-color: #f8f8fa; /* SCM Purple 10 */
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* Friend Item */
+.friend-item {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333; /* Dark text */
+    /* background-color: #CAC8EE;  */
+    /* SCM Purple 30 */
+    padding: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.friend-item:hover {
+    transform: scale(1.05);
+    /* background-color: #c8c9e9; */
+     /* Lighter shade for hover */
+}
+
+/* Friend Info */
+.friend-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Friend Profile Picture */
+.friend-profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.friend-profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Section */
+.profile-section {
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #4F47C8; /* SCM Purple 100 */
+    margin-bottom: 2px;
+}
+
+/* Sidebar Username */
+.sidebar-username {
+    margin-top: 2px;
+    font-weight: bold;
+    /* color: #3F39A0; SCM Purple 80 */
+}
+
+.sidebar-username:hover {
+    background-color: #EDEDF9; /* SCM Purple 10 */
+}
+
+/* Profile Section Button */
+.profile-section button {
+    background-color: #4F47C8; /* SCM Purple 100 */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-section button:hover {
+    background-color: #3F39A0; /* SCM Purple 80 */
+    color: #EDEDF9; /* SCM Purple 10 */
+    scale: 1;
+    border: 1px solid #4F47C8; /* SCM Purple 100 */
+}
