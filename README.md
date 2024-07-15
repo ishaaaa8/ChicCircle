@@ -1,47 +1,46 @@
 # Myntra-HackerRamp
 
-<p align="center"><img src="HackerRamp-logo.png" height = "200" ></img></p>
-<h1 align="center">Myntra Hacker-ramp</h1>
+<p align="center"><img src="HackerRamp-logo.png" height="200"></p>
+<h1 align="center">Myntra HackerRamp</h1>
 <p align="center"><b>Revolutionizing Personal Style for Gen-Z with AI, Community, and 3D Visualization</b></p>
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Technologies Used](#technologies-used)
-6. [Screenshots](#screenshots)
+1. [📌 Introduction](#introduction)
+2. [✨ Features](#features)
+3. [⚙️ Installation](#installation)
+4. [🚀 Usage](#usage)
+5. [🛠 Technologies Used](#technologies-used)
+6. [📸 Screenshots](#screenshots)
 
+## 📌 Introduction
+This project leverages advanced technologies like **Trend identification**, **AI-based recommendations**, **community-based interactions**, and **3D visualizations** to enhance user engagement on the platform.
 
-## Introduction
-This project leverages advanced technologies like **Trend identification** and **AI-based recommendations**, **community-based interactions** involving , and **3D visualizations** to enhance user engagement on the platform."
-
-## Features
-### Mix-and-Match : GenZ oriented on-platform experience
+## ✨ Features
+### 🧰 Mix-and-Match: GenZ Oriented On-Platform Experience
 - Allows users to visualize different products together on a **3D/2D model customized** based on their body structure.
 - Helps users make **informed choices** by seeing entire outfits before purchasing.
-- Reduces the chances of returns due to mismatched items **optimizing supply chain.**
+- Reduces the chances of returns due to mismatched items, **optimizing supply chain**.
 
-### 3D Visualizations : GenZ oriented user engagement
-- Users can view products from **all the angles** enhacing product understanding.
+### 🧰 3D Visualizations: GenZ Oriented User Engagement
+- Users can view products from **all angles**, enhancing product understanding.
 - Provides a **realistic representation** of how clothes will fit and look from all angles.
-- Enhances user engagement and helps in better **purchasing decisions.**
+- Enhances user engagement and helps in better **purchasing decisions**.
 
-### Community Platform :  Designing and Trend identification
+### 🧰 Community Platform: Designing and Trend Identification
 - **Real-time chat** along with discussions on fashion and style.
 - Users can connect, share their outfits, and get inspired within themed communities.
 - Each user has a personal profile for uploading their **Outfit of the Day (OOTD)** with **hashtags**.
 - **Themed community pages** like Bollywood, K-Drama, and more.
 - Fosters a sense of community and drives **user-generated content** to trend.
-  
-**Implementation:**
-- Develop a web  application.
-- Utilize technologies like React.js (frontend), Node.js with Express.js (backend), MongoDB (database), and WebXL (rendering).
-- Provide similar product recommendations on community platform.
-- Using Hashtags (node hashtagify) for trend identification.
-- Influencer based communities that helps us in identifying user preferences.
 
-## How to Use
+###👀 Implementation
+- Develop a web application.
+- Utilize technologies like React.js (frontend), Node.js with Express.js (backend), MongoDB (database), and WebXL (rendering).
+- Provide similar product recommendations on the community platform.
+- Use Hashtags (node hashtagify) for trend identification.
+- Influencer-based communities that help us identify user preferences.
+
+## ⚙️ Installation
 
 1. **Clone the Repository:**
 
@@ -57,9 +56,13 @@ This project leverages advanced technologies like **Trend identification** and *
     npm start
     ```
 
-    This will start a local development server, allowing you to explore ShamishGists on your browser.
+    This will start a local development server, allowing you to explore the project on your browser.
 
-## Technologies Used
+## 🚀 Usage
+
+After installation, open your browser and go to `http://localhost:3000` to start using the application.
+
+## 🛠 Technologies Used
 - **Frontend**: React, HTML, CSS
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
@@ -68,5 +71,9 @@ This project leverages advanced technologies like **Trend identification** and *
 - **Rendering Technologies**: WebXR, WebGL
 - **Other Tools**: Python, TensorFlow (for ML models), Video Editing Tools
 
-
-
+## 📸 Screenshots
+<p align="center">
+    <img src="screenshots/mix-and-match.png" alt="Mix and Match Feature" width="400">
+    <img src="screenshots/3d-visualizations.png" alt="3D Visualizations" width="400">
+    <img src="screenshots/community-platform.png" alt="Community Platform" width="400">
+</p>
