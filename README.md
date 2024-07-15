@@ -97,6 +97,6 @@ After installation, open your browser and go to `http://localhost:3000` to start
 ## 📽 Video
 <p align="center">
   <a href="https://github.com/ishaaaa8/Myntra-HackerRamp/raw/main/7-myntra.mp4" target="_blank">
-        <img src="7-myntra.png" alt="Watch the video" width="600">
+        <img src="2-myntra.png" alt="Watch the video" width="600">
     </a>
 </p>
