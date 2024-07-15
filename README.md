@@ -87,3 +87,6 @@ After installation, open your browser and go to `http://localhost:3000` to start
 <p align="center">
     <img src="5-myntra.png" alt="Community Platform" width="400">
 </p>
+<p align="center">
+    <img src="6-myntra.png" alt="Community Platform" width="400">
+</p>
