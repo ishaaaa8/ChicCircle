@@ -33,7 +33,7 @@ This project leverages advanced technologies like **Trend identification**, **AI
 - **Themed community pages** like Bollywood, K-Drama, and more.
 - Fosters a sense of community and drives **user-generated content** to trend.
 
-###👀 Implementation
+### 👀 Implementation
 - Develop a web application.
 - Utilize technologies like React.js (frontend), Node.js with Express.js (backend), MongoDB (database), and WebXL (rendering).
 - Provide similar product recommendations on the community platform.
@@ -73,7 +73,9 @@ After installation, open your browser and go to `http://localhost:3000` to start
 
 ## 📸 Screenshots
 <p align="center">
-    <img src="screenshots/mix-and-match.png" alt="Mix and Match Feature" width="400">
-    <img src="screenshots/3d-visualizations.png" alt="3D Visualizations" width="400">
-    <img src="screenshots/community-platform.png" alt="Community Platform" width="400">
+    <img src="1-myntra.png" alt="Mix and Match Feature" width="400">
+    <img src="2-myntra.png" alt="3D Visualizations" width="400">
+    <img src="3-myntra.png" alt="Community Platform" width="400">
+    <img src="4-myntra.png" alt="Community Platform" width="400">
+    <img src="5-myntra.png" alt="Community Platform" width="400">
 </p>
