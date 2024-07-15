@@ -74,8 +74,16 @@ After installation, open your browser and go to `http://localhost:3000` to start
 ## 📸 Screenshots
 <p align="center">
     <img src="1-myntra.png" alt="Mix and Match Feature" width="400">
+</p>
+<p align="center">
     <img src="2-myntra.png" alt="3D Visualizations" width="400">
+</p>
+<p align="center">
     <img src="3-myntra.png" alt="Community Platform" width="400">
+</p>
+<p align="center">
     <img src="4-myntra.png" alt="Community Platform" width="400">
+</p>
+<p align="center">
     <img src="5-myntra.png" alt="Community Platform" width="400">
 </p>
