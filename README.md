@@ -1,5 +1,4 @@
 # Myntra-HackerRamp
-# Myntra Project: Enhanced User Engagement
 
 <p align="center"><img src="HackerRamp-logo.png" height = "200" ></img></p>
 <h1 align="center">Myntra Hacker-ramp</h1>
@@ -15,24 +14,26 @@
 
 
 ## Introduction
-This project leverages advanced technologies like trend identification and AI-based recommendations, community-based interactions involving , and 3D visualizations to enhance user engagement on the platform."
+This project leverages advanced technologies like **Trend identification** and **AI-based recommendations**, **community-based interactions** involving , and **3D visualizations** to enhance user engagement on the platform."
+
 ## Features
-### Mix-and-Match
-- Allows users to visualize different products together on a 2D model customized based on their body structure.
-- Helps users make informed choices by seeing entire outfits before purchasing.
-- Reduces the chances of returns due to mismatched items.
+### Mix-and-Match : GenZ oriented on-platform experience
+- Allows users to visualize different products together on a **3D/2D model customized** based on their body structure.
+- Helps users make **informed choices** by seeing entire outfits before purchasing.
+- Reduces the chances of returns due to mismatched items **optimizing supply chain.**
 
-### 3D Visualizations
-- Users can view products on 3D models that resemble their body shape.
-- Provides a realistic representation of how clothes will fit and look from all angles.
-- Enhances user engagement and helps in better purchasing decisions.
+### 3D Visualizations : GenZ oriented user engagement
+- Users can view products from **all the angles** enhacing product understanding.
+- Provides a **realistic representation** of how clothes will fit and look from all angles.
+- Enhances user engagement and helps in better **purchasing decisions.**
 
-### Community Platform
+### Community Platform :  Designing and Trend identification
+- **Real-time chat** along with discussions on fashion and style.
 - Users can connect, share their outfits, and get inspired within themed communities.
-- Each user has a personal profile for uploading their Outfit of the Day (OOTD) with hashtags.
-- Themed community pages like Bollywood, K-Drama, and more.
-- Fosters a sense of community and drives user-generated content to trend.
-- 
+- Each user has a personal profile for uploading their **Outfit of the Day (OOTD)** with **hashtags**.
+- **Themed community pages** like Bollywood, K-Drama, and more.
+- Fosters a sense of community and drives **user-generated content** to trend.
+  
 **Implementation:**
 - Develop a web  application.
 - Utilize technologies like React.js (frontend), Node.js with Express.js (backend), MongoDB (database), and WebXL (rendering).
@@ -65,12 +66,7 @@ This project leverages advanced technologies like trend identification and AI-ba
 - **3D Models**: `.glb` files
 - **3D Model Viewer**: Google Model Viewer, Three.js
 - **Rendering Technologies**: WebXR, WebGL
-- **Other Tools**: Flask, TensorFlow (for ML models), Video Editing Tools
+- **Other Tools**: Python, TensorFlow (for ML models), Video Editing Tools
 
 
-## Acknowledgements
-
-I would like to express my gratitude to the open-source community for their invaluable contributions to the tools and libraries that make ShamishGists possible.
-
----
 
