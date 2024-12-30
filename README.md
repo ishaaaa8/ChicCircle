@@ -11,9 +11,6 @@ This project leverages advanced technologies like Trend identification and commu
 - Each user has a personal profile for uploading their **Outfit of the Day (OOTD)** with **hashtags**.
 - **Themed community pages** like Bollywood, K-Drama, and more.
 
-### 🧰 Mix-and-Match: 
-- Allows users to visualize different products together on a **3D/2D model customized** based on their body type.
-
 ### 🧰 Visualizations:
 - Users can have realistic view of products, enhancing product understanding.
 
@@ -28,13 +25,13 @@ This project leverages advanced technologies like Trend identification and commu
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/ishaaaa8/Myntra-HackerRamp.git
+    git clone https://github.com/ishaaaa8/ChicCircle.git
     ```
 
 2. **Launch the Website:**
 
     ```bash
-    cd Myntra-HackerRamp
+    cd ChicCircle
     npm install
     npm start
     ```
@@ -49,26 +46,22 @@ After installation, open your browser and go to `http://localhost:3000` to start
 - **Frontend**: React, HTML, CSS
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
-- **Other Tools**: Python, TensorFlow (for ML models), Video Editing Tools
 
 ## 📸 Screenshots
 <p align="center">
-   <img src="assets/6-myntra.png" alt="Community Platform" width="400">
-    <img src="assets/3-myntra.png" alt="Community Platform" width="400">
+   <img src="assets/6.png" alt="Community Platform" width="400">
+    <img src="assets/3.png" alt="Community Platform" width="400">
 </p>
 
 <p align="center">
     
 </p>
 <p align="center">
-    <img src="assets/4-myntra.png" alt="Community Platform" width="400">
-     <img src="assets/5-myntra.png" alt="Community Platform" width="400">
+    <img src="assets/4.png" alt="Community Platform" width="400">
+     <img src="assets/5.png" alt="Community Platform" width="400">
 </p>
 <p align="center">
    
 </p>
-<p align="center">
-     <img src="assets/1-myntra.png" alt="Mix and Match Feature" width="400">
-    
-</p>
+
 
