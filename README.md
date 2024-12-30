@@ -1,18 +1,11 @@
 
 ## 📌 Introduction
-This project leverages advanced technologies like Trend identification and community-based interaction, to enhance user engagement on the platform.
+This project leverages advanced technologies like trend identification and community-based interaction, to enhance user engagement on the platform.
 
 ## ✨ Features
+ 
+- Real-time chat along with discussions on fashion and style where users can connect, share their outfits, and get inspired within themed communities.
 
-
-### 🧰 Community Platform: 
-- **Real-time chat** along with discussions on fashion and style.
-- Users can connect, share their outfits, and get inspired within themed communities.
-- Each user has a personal profile for uploading their **Outfit of the Day (OOTD)** with **hashtags**.
-- **Themed community pages** like Bollywood, K-Drama, and more.
-
-### 🧰 Visualizations:
-- Users can have realistic view of products, enhancing product understanding.
 
 ### 👀 Implementation
 - Develop a web application.
